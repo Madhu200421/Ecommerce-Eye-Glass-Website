@@ -1,0 +1,110 @@
+.link{
+    margin-left:270px;
+    margin-top:-23px;
+}
+.link2{
+    margin-left:280px;
+    margin-top:-23px;
+}
+.pay{
+    text-align: center;
+}
+
+
+.your-form {
+    display: flex;
+    flex-direction: row;
+    width:500px;
+    height:1000px;
+    margin-left:250px;
+     /* Set to column to make elements stack vertically */
+}
+.company-group {
+    margin-top: 80px;
+    margin-left:-400px; /* Adjust the margin to move company name down */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group {
+    margin-bottom:60px;
+    margin-left:5px;
+     /* Adjust the margin between form groups */
+}
+.comp{
+    margin-top:100px;
+    margin-left:-400px;
+}
+.inp{
+    margin-left:-400px;
+}
+.countr{
+    margin-top:200px;
+    margin-left:-400px;
+}
+.coun{
+    margin-left:-400px;
+}
+.address{
+    margin-top:300px;
+    margin-left:-400px;
+}
+.addr{
+    margin-left:-400px;
+}
+.town{
+    margin-top:450px;
+    margin-left:-400px;
+}
+.code{
+margin-top:520px;
+margin-left:-200px;
+}
+.emai{
+    margin-top:590px;
+    margin-left:-200px;
+}
+.pho{
+    margin-top:660px;
+    margin-left:-200px;
+}
+.phon{
+    margin-left:-200px;
+}
+.form-group2{
+    margin-top:750px;
+    margin-bottom:20px;
+    margin-left:-200px;
+
+}
+.form-group3{
+    margin-top: 750px;
+    margin-left:10px;
+}
+.form-group4{
+    margin-top:800px;
+    margin-left:-400px;
+    display: flex;
+    align-items:center;
+}
+ 
+
+
+.link{
+    color:black;
+   
+}
+.retu{
+    color:black;
+}
+.link2{
+    color:black;
+}
+.cou{
+    color:black;
+}
+.deli {
+    color:black;
+}

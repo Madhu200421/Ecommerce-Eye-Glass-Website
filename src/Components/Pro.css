@@ -1,0 +1,23 @@
+.selectbar{
+    margin-left:1100px;
+   margin-top:-2500px;
+}
+#num
+{
+    width:50px;
+}
+#num2
+{
+    width:50px;
+    margin-left:50px;
+}
+.res
+{
+    margin-left:30px;
+    margin-top:20px;
+    color:#A9A9A9; 
+}
+.footer_con {
+    margin-top: 1300px;
+     /* This pushes the footer to the bottom */
+  }

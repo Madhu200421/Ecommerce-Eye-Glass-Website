@@ -1,0 +1,97 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+body{
+    font-family: 'Poppins,sans-serif';
+    display: flex;
+
+}
+.Nav{
+    width:110%;
+}
+.wrapper51
+{
+    width:420px;
+    margin-left:100px;
+ 
+    
+}
+
+form{
+    justify-content: left;
+    margin-left:80px;
+    border-style: dashed;
+    border-color: grey;
+    width:100%;
+    height:450px;
+    margin-top:60px;
+    padding:20px;
+
+}
+label{
+    font-size:20px;
+}
+.input_box input{
+    width:100%;    
+}
+.wrapper51 .rem-for{
+    display: flex;
+    justify-content: space-between;
+    font-size:14.5px;
+    margin:-15px 0 15px;
+}
+.rem-for{
+    margin-bottom:20px;
+}
+.rem-for a{
+ margin-top:7px;
+    text-decoration: none;
+}
+.rem-for a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.wrapper51 #submit{
+    width:50%;
+    height:45px;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    font-size:18px;
+    color:white;
+    background-color:red;
+    font-weight:700;
+    margin-left:100px;
+    float:left;
+
+}
+.wrapper51 .input_box #pass
+{
+    margin-top:30px;
+}
+.wrapper51 .input_box #user
+{
+    margin-top:20px;
+}
+.wrapper51 #submit:hover{
+    background-color:black;
+    color:white;
+}
+.wrapper51 h2{
+    margin-left:250px;   
+}
+
+
+h6{
+    margin-top:20px;
+}
+
+.wrapper51 .content p
+{
+    margin: 0;
+    margin-left: 0; 
+}

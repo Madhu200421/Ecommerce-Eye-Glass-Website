@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.input_boxes input{
+    width:100%;
+}
+.wrapperr {
+    margin-left:600px; 
+    margin-bottom:-500px;/* Adjust the left margin for register form */
+    margin-top:-550px;
+    width:400px;
+   
+}
+.footer-con100{
+    margin-top:700px;
+    width:1290px;
+    margin-left:-100px;
+}

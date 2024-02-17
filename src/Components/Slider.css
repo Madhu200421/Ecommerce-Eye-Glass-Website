@@ -1,0 +1,27 @@
+.slider-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Style for mobile height adjustment */
+  .img-mobile-height {
+    max-height: 400px; /* Adjust the max-height as needed for mobile screens */
+  }
+  
+  /* Responsive styling for images */
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .img-mobile-height {
+      max-height: 250px; /* Adjust the max-height for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .img-mobile-height {
+      max-height: 150px; /* Adjust the max-height for even smaller screens */
+    }
+  }

@@ -1,0 +1,99 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins,sans-serif';
+    display: flex;
+
+}
+.wrapper50
+{
+    width:420px;
+    margin-left:300px;
+ 
+    
+}
+
+form{
+    justify-content: left;
+    margin-left:80px;
+    border-style: dashed;
+    border-color: grey;
+    width:100%;
+    height:450px;
+    margin-top:60px;
+    padding:20px;
+
+}
+label{
+    font-size:20px;
+}
+.input_box input{
+    width:100%;    
+}
+.wrapper50 .rem-for{
+    display: flex;
+    justify-content: space-between;
+    font-size:14.5px;
+    margin:-15px 0 15px;
+}
+.rem-for{
+    margin-bottom:20px;
+}
+.rem-for a{
+ margin-top:7px;
+    text-decoration: none;
+}
+.rem-for a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.wrapper50 #submit{
+    width:50%;
+    height:45px;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    font-size:18px;
+    color:white;
+    background-color:red;
+    font-weight:700;
+    margin-left:100px;
+    float:left;
+
+}
+.wrapper50 .input_box #pass
+{
+    margin-top:30px;
+}
+.wrapper50 .input_box #user
+{
+    margin-top:20px;
+}
+.wrapper50 #submit:hover{
+    background-color:black;
+    color:white;
+}
+.wrapper50 h2{
+    margin-left:250px;   
+}
+
+
+h6{
+    margin-top:20px;
+}
+
+.wrapper50 .content p
+{
+    margin: 0;
+    margin-left: 0; 
+}
+.footer_con{
+    position: relative;
+    content: "";
+    display: table;
+    clear: both;
+}

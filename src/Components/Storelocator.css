@@ -1,0 +1,19 @@
+.gmap_canvas {
+    display: flex;
+/* or use 'flex-start' based on your preference */
+}
+
+.mapouter {
+    display: flex;
+    margin-top:20px;
+    /* or use 'flex-start' based on your preference */
+}
+
+#gmap_canvas2 {
+  
+    margin-left:100px;
+}
+
+.footer-con40{
+    margin-top:300px;
+}
