@@ -25,27 +25,7 @@ const Brand=()=>{
            <div className='slidee'>
            <img src={brand3} alt="/" className='brands'></img>                                                                                                                                                                                                                 
            </div>
-           <div className='slidee'>
-           <img src={brand5} alt="/" className='brands'></img>                                                                                                                                                                                                                 
-           </div>
-           <div className='slidee'>
-           <img src={brand6} alt="/" className='brands'></img>                                                                                                                                                                                                                 
-           </div>
-           <div className='slidee'>
-           <img src={brand7} alt="/" className='brands'></img>                                                                                                                                                                                                                 
-           </div>
-           <div className='slidee'>
-           <img src={brand8} alt="/" className='brands'></img>                                                                                                                                                                                                                 
-           </div>
-           <div className='slidee'>
-           <img src={brand9} alt="/" className='brands'></img>                                                                                                                                                                                                                 
-           </div>
-           <div className='slidee'>
-           <img src={brand10} alt="/" className='brands' ></img>                                                                                                                                                                                                                                                                                                                                                                                                                         
-           </div>
-           <div className='slidee'>
-           <img src={brand11} alt="/" className='brands' ></img>                                                                                                                                                                                                                                                                                                                                                                                                                         
-           </div>
+          
            
 
 
