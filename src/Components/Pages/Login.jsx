@@ -45,7 +45,6 @@ const Login =()=>{
     }
     return (
         <>
-           <Route path="/" element={<Navbar></Navbar>}></Route>
         <div className="wrapper51">
             
             <h2>Login</h2>
