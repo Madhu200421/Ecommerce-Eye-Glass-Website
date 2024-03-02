@@ -1,0 +1,23 @@
+
+
+
+
+
+
+.last{
+    max-width:100%;
+}
+
+.lastline{
+    margin: 0;
+}
+.wrap-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(175, 175, 175);
+}
+.privacypolicy{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
