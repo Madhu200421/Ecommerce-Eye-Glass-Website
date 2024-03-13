@@ -12,7 +12,7 @@ import frame2 from '../Components/frame2.webp';
 import frame3 from '../Components/frame3.webp';
 import frame4 from '../Components/frame4.webp';
 import frame5 from '../Components/frame5.jpg';
-
+import { NavLink } from 'react-router-dom';
 import './Product.css';
 import { Outlet } from 'react-router-dom';
 const Product=()=>{
@@ -20,11 +20,11 @@ return (
     <div> 
         <div className="cards">
             <div className='card1'>
-                <img src={Mens1}  alt=""/>
+                <NavLink to="Mensunglass"><img src={Mens1}  alt=""/></NavLink>
                 <h3>Mens Sunglasses</h3>
             </div>
             <div className='card1'>
-                <img src={Mens2}  alt=""/>
+                <NavLink to="Meneyewear"><img src={Mens2}  alt=""/></NavLink>
                 <h3>Mens Eyewear</h3>
             </div>
         </div>
@@ -35,11 +35,11 @@ return (
 
         <div className='cards'>
             <div className='card1'>
-                <img src={womens1} alt=""/>
+                <NavLink to="Womensunglass"><img src={womens1} alt=""/></NavLink>
                 <h3>Womens Sunglasses</h3>
             </div>
             <div className='card1'>
-                <img src={womens2} alt=""/>
+               <NavLink to="Womeneyewear"><img src={womens2} alt=""/></NavLink> 
                 <h3>Womens Eyewear</h3>
             </div>
         </div>
@@ -49,11 +49,11 @@ return (
         </div>
         <div className='cards'>
             <div className='card1'>
-                <img src={kids1} alt=""/>
+               <NavLink to="Kids"><img src={kids1} alt=""/></NavLink> 
                 <h3>Kids Sunglasses</h3>
             </div>
             <div className='card1'>
-                <img src={kids2} alt=""/>
+                <NavLink to="Kids"><img src={kids2} alt=""/></NavLink>
                 <h3> Eyewear</h3>
             </div>
         </div>
