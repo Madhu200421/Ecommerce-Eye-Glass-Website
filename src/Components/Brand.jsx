@@ -27,7 +27,11 @@ const Brand=()=>{
            </div>
           
            
+   <div className='slidee'>
+           <img src={brand5} alt="/" className='brands'></img>                                                                                                                                                                                                                 
+           </div>
 
+      
 
 
            
