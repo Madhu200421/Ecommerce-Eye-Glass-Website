@@ -73,11 +73,11 @@ return (
             <h1>Frames</h1>
         </div>
         <div className='frame'>
-            <img src={frame1} alt=""/>
-            <img src={frame2} alt=""/>
-            <img src={frame3} alt=""/>
-            <img src={frame4} alt=""/>
-            <img src={frame5} alt=""/>
+           <NavLink to="/Frame1"><img src={frame1} alt=""/></NavLink> 
+           <NavLink to="/Frame2"><img src={frame2} alt=""/></NavLink> 
+            <NavLink to="/Frame3"><img src={frame3} alt=""/></NavLink>
+           <NavLink to="/Frame4"><img src={frame4} alt=""/></NavLink> 
+            <NavLink to="/Frame5"><img src={frame5} alt=""/></NavLink>
         </div>
         <Outlet></Outlet>
     </div>
