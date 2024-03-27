@@ -7,7 +7,7 @@ import FC3 from '../Components/FC3.jpg';
 import FC4 from '../Components/FC4.jpg';
 import './ProductSlider.css';
 import { NavLink } from 'react-router-dom';
-// import Footer from './Footer';
+import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faMagnifyingGlass, faHeart, faUser, faUsers, faCartShopping, faLink } from '@fortawesome/free-solid-svg-icons';
 
@@ -158,7 +158,7 @@ class productSlider extends React.Component{
         <div className='caard'>
   <div>
   <button type="button" >Sale!</button>
-    <img src={FC1} alt="/"/>
+   <NavLink to="/Frontframe"><img src={FC1} alt="/"/></NavLink> 
   <p>SC 876 C407 Scott</p>
   <h6 className='header'> &#x20B9;2,352.00</h6>
   <h5 className='org'>&#x20B9;2,117.00</h5>
@@ -167,7 +167,7 @@ class productSlider extends React.Component{
   </div>
   <div>  
      <button type="button" >Sale!</button>
-        <img src={FC2} alt="/"/>
+       <NavLink to="/C1scott"><img src={FC2} alt="/"/></NavLink> 
         <p>SC5357 C1 Scott</p>
         <h6 className='header'> &#x20B9;3,010.00</h6>
         <h5 className='org'>&#x20B9;2,709.00</h5>
@@ -176,7 +176,7 @@ class productSlider extends React.Component{
         </div>
   <div>
       <button type="button" >Sale!</button>
-      <img src={FC3} alt="/"/>
+      <NavLink to="/C2scott"><img src={FC3} alt="/"/></NavLink>
       <p>SC5357 C2 Scott</p>
     <h6 className='header'> &#x20B9;3,010.00</h6>
     <h5 className='org'>&#x20B9;2,709.00</h5>
@@ -185,7 +185,7 @@ class productSlider extends React.Component{
       </div>
       <div>
        <button type="button" >Sale!</button>
-       <img src={FC4} alt="/"/>
+       <NavLink to="/C22scott"><img src={FC4} alt="/"/></NavLink>
        <p>SC5386 C2 Scott</p>
     <h6 className='header'> &#x20B9;2,509.00</h6>
     <h5 className='org'>&#x20B9;2,258.00</h5>
@@ -194,9 +194,9 @@ class productSlider extends React.Component{
        </div> 
       </div>
       </div>
-      {/* <div className='footer_con'>
-            <Footer/>
-          </div> */}
+       <div className='footer_con100'>
+            <Footer></Footer>
+          </div> 
                  
       </div> 
     )
